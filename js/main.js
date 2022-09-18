@@ -3,7 +3,12 @@ const links = [
     {
         label: "Week 1",
         url: "week1/index.html"
+    },
+    {
+        label: "Week 2",
+        url: "week2/index.html"
     }
+
 
 ];
 let newline = '';
@@ -11,8 +16,7 @@ let newline = '';
         
         newline += "<li><a href='" + links[i].url + "'>" + links[i].label + "</a></li>"
     }
-    console.log(newline);
-    document.getElementById("links").innerHTML = newline;
+document.getElementById("links").innerHTML = newline;
 
 
 
