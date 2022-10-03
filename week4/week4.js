@@ -9,6 +9,8 @@ CHAPTER 8: FORMS
 - Forms also have a submit event that you can use to intercept before the form is submitted.
 - Information entered in a form can be read or updated using the Value property of form controls.
 - You can use the HTML5 Form Validation API to validate forms automatically, but it's only available at a basic level, so you may need a custom validation script.
+Are there certain modules that allow for faster form validation instead of having to hard code it?
+How do you stop TEXTAREA from being completely customizable in size and messing up all the website design?
 
 CHAPTER 12: OBJ PROGRAMMING
 - Object-oriented programming (OOP) is a programming style that uses objects that encapsulate their own properties and methods.
@@ -27,6 +29,9 @@ Mixin methods allow you to add properties and methods from other objects without
 - The value of this is not preserved in nested functions, which can lead to errors. This can be avoided with that = this using the method bind(this) and an arrow function.
 - Methods can be borrowed from other objects.
 - Inheritance composition is a design pattern in which objects are made up of "brick" objects instead of inheriting all properties and methods from a parent class.
+Is it possible to assign an anonymous function to a variable and pass it as an argument to another function?
+Best use cases for Prototype keyword?
+How do you use mixins to extend objects?
 
 CHAPTER 15: MODULAR JS
 - Modules are self-contained pieces of code that provide functions and methods that can be used in other files and other modules.
@@ -35,4 +40,5 @@ CHAPTER 15: MODULAR JS
 - Template files can be used to separate rendering code from JavaScript. You can also generate markup with dynamic code and programming logic.
 - React and Vue.js are popular JavaScript view libraries for rendering components and tracking their status.
 - Minification removes all extra characters from code to reduce file size.
+How do you build custom modules and then use them in seperate JS files?
 */
