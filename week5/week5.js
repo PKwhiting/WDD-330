@@ -21,4 +21,7 @@ CHAPTER 10: TESTING AND DEBUGGING
 - TypeError is thrown when there is an error in the types of values ​​used. For example, if a number is expected, a string is used.
 - A URIError is thrown if there is a problem encoding or decoding the URI.
 - InternalError is a non-standard error thrown when an error occurs in the JavaScript engine. A common cause for this is too much recursion.
+- What are the best use cases for Jest? 
+- What are the things the debugger keyword can't detect?
+- Can debugging work across multiple JS framework files?
 */
