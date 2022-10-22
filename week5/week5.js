@@ -24,4 +24,5 @@ CHAPTER 10: TESTING AND DEBUGGING
 - What are the best use cases for Jest? 
 - What are the things the debugger keyword can't detect?
 - Can debugging work across multiple JS framework files?
+- More use cases of STRICT MODE?
 */
