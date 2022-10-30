@@ -32,5 +32,7 @@ fetch(request)
 }
 - Ajax uses XHTML for content, CSS for presentation, and the Document Object Model and JavaScript for displaying dynamic content.
 - Traditional web applications use synchronous requests to transfer information to and from servers. This means that when you fill out the form and click submit, you are redirected to a new page with new information from the server.
+- How does ajax form submission work?
+- How does AJAX interact with jquery?
 - When you click Submit with AJAX, JavaScript sends a request to the server, interprets the result, and updates the current screen. In a pure sense, the user has no idea that anything has been sent to the server.
 */
