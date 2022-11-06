@@ -1,0 +1,38 @@
+/*
+ - Using CSS transform() changes the state, position and structure of elements, especially during events such as mouseovers.
+ - Transform() allows you to move, tilt, rotate and skew elements in the X and Y axes.
+ - CSS transform() has two properties: transform and transform-origin.
+ - Transform-origin is responsible for transforming elements and positioning them on the x, y, and z axes. 
+  - Source units include left, right, center, top, bottom, and %.
+ - Translate() moves an element from its current position to another position according to the X and Y axis parameters.
+ - The rotate() function rotates an element around the origin by the specified angle value.
+ - Transition property allows multiple transitions in one call.
+ - To animate an element with CSS, first create a named animation and attach it to the element within that element's property declaration block. 
+ - The animation itself does nothing. To animate an element, you have to link the animation to it.
+ - Use the animation-delay property to specify the number of milliseconds or seconds the browser should wait before starting an animation.
+ - How do you add multiple transformations to a single into a single transform property?
+ - Is it possible to use multiple key-frames inside an animation property?
+ - Can you make animations repeat forever?
+ - Canvas lets you draw shapes and lines, arcs and text, gradients and patterns.
+ - The canvas element requires both width and height attributes, which must also be set.
+ - All drawing on the canvas is done using the Canvas JavaScript API
+ - Paths create blueprints for lines, arcs and shapes, but paths are not visible until stroked
+ - API You can use the toDataURL method to create a save for your drawing. 
+ - You can draw images into a container created in Raphaël.
+ - SVG graphics take up less memory
+ - <svg></svg>
+ - SVG is better optimied for bigger screens
+ - Canvas does not support event handlers.
+ - SVG images are extensible and scalable
+ - Drag and drop events:
+    -dragstart
+    -drag
+    -dragenter
+    -dragleave
+    -dragover
+    -drop
+    -dragend
+ - Which one is better for gaming applications?
+ - If JS is not enables on a page will the images fail to render?
+ - Which provides better and faster performance?
+*/
