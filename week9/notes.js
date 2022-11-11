@@ -9,11 +9,13 @@
 - The window.location object provides information about the URL of the current page.
 - The window.history object stores information about pages visited in a session.
 - You can open, close, resize, and move windows (but that doesn't mean you should!).
+- Can you manipulate the actual window size?
 - The window.screen object provides information about the user's screen.
 - document.write() is an archaic method for writing text to a document and should be avoided.
 - Cookies can be used to store pieces of information that are small between requests using the document.cookie property.
 - How do you delete a cookie when a user doesn't want it used anymore?
 - You can use the window.setTimeout() method to call a function after a specified amount of time. It can be aborted with the clearTimeout() method.
+- Is there a way with a for loop for example to make something happen every 2 seconds or something as long as the page is open?
 - You can use the window.setInterval() method to call a function repeatedly. You can stop it with the clearInterval() method.
 - The window.requestAnimationFrame() method lets you use your browser's built-in graphics capabilities to create smooth, optimized animations. It can be canceled with the cancelAnimationFrame() method.
 - HTML5.1 is the latest version of the Hypertext Markup Language. It covers a wide variety of technologies, including multiple APIs accessible via JavaScript.
