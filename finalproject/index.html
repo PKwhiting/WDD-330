@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>GREGSLIST</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+            <a href="index.html" class="logo">GREGSLIST</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a onclick="">All Listings</a></li>
+              <li><a onclick="login('expand')">Login</a></li>
+              <li><a onclick="registerVis('expand')">Register</a></li>
+            </ul>
+            <div id="login"> 
+                <label>Username:<br><input name="username" size="14" /></label><br>
+                <label>Password:<br><input name="password" size="14" /></label><br>
+                <button onclick="login('collapse')">Login</button>
+            </div> 
+            <div id="register"> 
+                    <label>First Name:<br><input id="fName" size="14" /></label><br>
+                    <label>Last Name:<br><input id="lName" size="14" /></label><br>
+                    <label>Zip Code:<br><input id="zipCode" size="14" /></label><br>
+                    <label>Email Address:<br><input id="emailAddress" size="14" /></label><br>
+                    <label>Phone Number:<br><input id="phoneNumber" size="14" /></label><br>
+                    <button onclick="register('collapse')">Register</button>
+            </div> 
+        
+    </header>
+    <nav></nav>
+    <section>
+        <div class="form" id="listingForm">
+            <h2>Enter Vehicle Info</h2>
+                <div>
+                    <tr>
+                        <td>
+                            <label for="vin">VIN:</label>
+                            <input type="text" id="vin" placeholder="Enter VINs-separated by ;" name="vin" maxlength="100"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="submit_btn">DECODE</button>
+                        </td>
+                    </tr>
+                </div>
+                <div>
+                    <label>YEAR:<input type="text" id="year"/></label>
+                </div>
+                <div>
+                    <label>MAKE:<input type="text" id="make"/></label>
+                </div>
+                <div>
+                    <label>MODEL:<input type="text" id="model"/></label>
+                </div>
+                <div>
+                    <label>MILES:<input type="number" id="miles"/></label>
+                </div>
+                <div>
+                    <label>PRICE:<input type="number" id="price"/></label>
+                </div>
+                <div>
+                    <label>DESCRIPTION: <br><textarea id="description"/></textarea>
+                </div>
+    
+                <div class="btnContainer">
+                    <button onclick="addCars()">Add Listing</button>
+                </div>
+        </div>
+    </section>
+    <aside>
+        <ul id="carsList">
+        </ul>
+    </aside>
+    <footer></footer>
+
+</body>
+<script src="script.js" type="text/javascript">
+</script>
+
+</html>
